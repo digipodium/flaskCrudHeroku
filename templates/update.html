@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="/update/{{grocery.id}}" method="POST">
+    <label for="item">Existing Grocery Item</label>
+    <input type="text" name="name" id="item" value="{{grocery.name}}"> 
+    <button>Update</button>
+</form>
+{% endblock %}
+
+
