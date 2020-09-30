@@ -12,7 +12,7 @@ to deploy the content to heroku
     - `heroku login`
     - `git init`
     - `git add .`
-    - `git commit "done and done"`
+    - `git commit -m "done and done"`
     - `heroku create flaskappmpt`
     - `git push heroku master`
     - `heroku open`
